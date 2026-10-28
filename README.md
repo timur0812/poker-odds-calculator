@@ -41,3 +41,11 @@ In IntelliJ IDEA you can also run `PokerOddsApplication` directly.
 The server only listens on `127.0.0.1`, so it is not reachable from other computers.
 
 Run the tests with `mvn clean verify`.
+
+
+## Program photos
+<img width="878" height="419" alt="Screenshot 2026-10-28 205602" src="https://github.com/user-attachments/assets/a6ef1a2b-b6b4-456d-b29d-65c3aa722166" />
+<img width="880" height="557" alt="Screenshot 2026-10-28 205514" src="https://github.com/user-attachments/assets/02f0174e-08eb-4cdf-b51f-a1920155403a" />
+<img width="887" height="419" alt="Screenshot 2026-10-28 205647" src="https://github.com/user-attachments/assets/199006bd-5f44-408a-8f98-7e60323f4d89" />
+
+
