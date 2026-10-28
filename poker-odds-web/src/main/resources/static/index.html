@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Poker Odds Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Poker Odds Calculator</h1>
+    <button id="new-hand" type="button">New hand</button>
+</header>
+
+<main>
+    <!-- Left column: chosen cards and the card picker -->
+    <section class="panel" id="cards-panel">
+        <h2>Your hand</h2>
+        <div class="slots" id="hand-slots"></div>
+
+        <h2>Board</h2>
+        <div class="slots" id="board-slots"></div>
+
+        <h2>Pick a card</h2>
+        <div id="picker"></div>
+    </section>
+
+    <!-- Right column: analysis from POST /api/analyze -->
+    <section class="panel" id="results-panel">
+        <h2>Results</h2>
+        <div id="error" class="error" hidden></div>
+        <div id="results"></div>
+    </section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
